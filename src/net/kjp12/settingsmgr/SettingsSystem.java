@@ -44,4 +44,12 @@ public class SettingsSystem {
                 return;
             }
     }
+
+    public <I, O extends Dirty> void setSettings(I i, O o) {
+        for (AbstractSettingsManager<?, ?> mgr : ARR)
+            if (mgr != null && mgr.isInstance(o)) {
+                ((AbstractSettingsManager<I, O>) mgr).setSettings(i, o);
+                return;
+            }
+    }
 }
