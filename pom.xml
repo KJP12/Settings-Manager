@@ -101,7 +101,7 @@
     </build>
 
     <groupId>net.kjp12.settingsmgr</groupId>
-    <artifactId>Settings Manager</artifactId>
+    <artifactId>SettingsManager</artifactId>
     <version>na</version>
 
     <dependencies>
