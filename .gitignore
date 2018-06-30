@@ -1,0 +1,6 @@
+out/**
+target/**
+.idea/**
+guilds/**
+/settings.json
+*.class
